@@ -81,6 +81,8 @@ while True:
 		round(max_demand * (1 - 1 / (1 + m.exp(-0.05 * (100 - mean_d_price))))),
 		'\n')
 
+	print(f'С начала моделирования прошло {cur_time} дней')
+
 	##Manual parameters change
 	sim_continue = int(input('Введите 1, чтобы продолжить симуляцию, или 0, чтобы завершить её\n'))
 	if sim_continue == 0:
