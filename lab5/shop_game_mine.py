@@ -81,7 +81,7 @@ while True:
 		round(max_demand * (1 - 1 / (1 + m.exp(-0.05 * (100 - mean_d_price))))),
 		'\n')
 
-	print(f'С начала моделирования прошло {cur_time} дней')
+	print(f'С начала моделирования прошло {cur_time} дней\n')
 
 	##Manual parameters change
 	sim_continue = int(input('Введите 1, чтобы продолжить симуляцию, или 0, чтобы завершить её\n'))
@@ -107,6 +107,7 @@ while True:
 	stop_sell = 1 - stop_sell
 	if stop_sell == 0:
 		ret_price = float(input('Установите цену для покупателей в магазине за одну единицу товара\n'))
+		print('')
 	demand = round(max_demand * (1 - 1 / (1 + m.exp(-0.05 * (ret_price - mean_d_price)))))
 	rnd_demand = round(demand * (rnd.random() / 2 + 0.7))
 	sold_ret = (1 - stop_sell) * min(rnd_demand, Shop_store)
