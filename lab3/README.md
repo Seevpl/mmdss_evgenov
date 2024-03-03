@@ -52,7 +52,7 @@ $x_j$: доля вложения в $j$-й проект относительно
 https://github.com/Seevpl/mmdss_evgenov/blob/825959371d53490ccebecc25f61ac2e11d08ca0e/lab3/Simplex.ipynb
 ## Демонстрация работы программы
 Изначальный результат чтения файла с записью ЗЛП:\
-![Screenshot of the initial file task parsing](/lab3/img0.png)\
+![Screenshot of the initial file task parsing](lab3/img0.png)\
 Результат получения из начального списка переменных для реализации симплекс-метода:\
 ![Screenshot of the initial vars parsed](/lab3/img1.png)\
 Работа программы с передачей в неё полученных переменных:\
