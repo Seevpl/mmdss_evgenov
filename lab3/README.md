@@ -17,8 +17,9 @@
 |3|50|20|10|15|
 |4|48|9|15|21|
 ## Математическая запись
-$$
-W(x) = 39x_1 + 45x_2 + 50x_3 + 48x_4 \rightarrow max\
+$
+W(x) = 39x_1 + 45x_2 + 50x_3 + 48x_4 \rightarrow max
+
 \begin{equation*}
  \begin{cases}
    2 |x|(2 - x) = a, 
@@ -28,6 +29,6 @@ W(x) = 39x_1 + 45x_2 + 50x_3 + 48x_4 \rightarrow max\
    x \ne 0.
  \end{cases}
 \end{equation*}
-$$
+$
 ## Код программы
 ## Демонстрация работы программы
